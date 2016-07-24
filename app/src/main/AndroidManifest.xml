@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pictureperfectpro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity android:name="com.example.pictureperfectpro.StartScreen" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.CreateAccount"
+            android:label="@string/title_activity_create_account" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.MainFrame"
+            android:label="@string/title_activity_main_frame" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.QuickSearch"
+            android:label="@string/title_activity_quick_search" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.ImageSwipeView"
+            android:label="@string/title_activity_image_swipe_view" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.ShowExplored"
+            android:label="@string/title_activity_show_explored" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.EditProfile"
+            android:label="@string/title_activity_edit_profile" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.CreateNewCollectionDialog"
+            android:label="@string/title_activity_create_new_collection_dialog" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.ShowCollectionDetails"
+            android:label="@string/title_activity_show_collection_details" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.AddPhotoToCollection"
+            android:label="@string/title_activity_add_photo_to_collection"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.SearchUser"
+            android:label="@string/title_activity_search_user" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.SingleUserDetails"
+            android:label="@string/title_activity_single_user_details" >
+        </activity>
+        <activity
+            android:name="com.example.pictureperfectpro.ExploredImageSwipeView"
+            android:label="@string/title_activity_explored_image_swipe_view" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="10dp" >
+
+    <ListView
+        android:id="@+id/lst_exifListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_exifSearch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8sp" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_exifSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lst_exifListView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/lst_exifListView"
+        android:text="Search" />
+
+</RelativeLayout>

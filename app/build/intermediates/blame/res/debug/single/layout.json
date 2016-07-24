@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_screen.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_start_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\exif_list_item.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\exif_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_explored_image_swipe_view.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_explored_image_swipe_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\me_layout.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\me_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\collection_single_item.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\collection_single_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_collection_details.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_show_collection_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\near_by_photo_item.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\near_by_photo_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_swipe_view.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_image_swipe_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_nav_layout.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\user_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_user.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_search_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_single_user_details.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_single_user_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quick_search.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_quick_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_explored.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_show_explored.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\exif_search_layout.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\exif_search_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\collection_item.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\collection_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_user_search_item.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\single_user_search_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\feeds_layout.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\feeds_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_new_collection_dialog.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_create_new_collection_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_account.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_create_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_search_item_layout.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\quick_search_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notifications_layout.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\notifications_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\collections_layout.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\collections_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_photo_to_collection.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_add_photo_to_collection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_frame.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_main_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_profile.xml",
+        "source": "C:\\Users\\Rakshit\\AndroidStudioProjects\\PicturePerfectPro\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
+    }
+]

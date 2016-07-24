@@ -1,0 +1,358 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ImageSwipeView" >
+
+    <TextView
+        android:id="@+id/txt_photoTitle"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:lines="1"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/linearLayout2"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton_like"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/like" />
+
+        <ImageButton
+            android:id="@+id/imageButton_fav"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/unfav" />
+
+        <ImageButton
+            android:id="@+id/btn_share"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/share" />
+
+        <ImageButton
+            android:id="@+id/btn_addToCollection"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_to_collection" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lbl_like"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/lbl_fav"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="10000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/lbl_share"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="10000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/lbl_userCollections"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_photoDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/view_pager"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/view_pager"
+        android:alpha="0.7"
+        android:background="#000"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:visibility="invisible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:text="camera:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ccc" />
+
+            <TextView
+                android:id="@+id/lbl_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="camera:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eee"
+                android:lines="1"
+		        android:singleLine="true"
+		        android:ellipsize="marquee"
+		        android:marqueeRepeatLimit="marquee_forever"
+		        android:scrollHorizontally="true"
+		        android:focusable="true"
+		        android:focusableInTouchMode="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:text="aperture:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ccc" />
+
+            <TextView
+                android:id="@+id/lbl_aperture"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="aperture:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eee" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:text="shutter:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ccc" />
+
+            <TextView
+                android:id="@+id/lbl_shutter"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="shutter:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eee" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:text="iso:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ccc" />
+
+            <TextView
+                android:id="@+id/lbl_iso"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="iso:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eee" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:text="focal length:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ccc" />
+
+            <TextView
+                android:id="@+id/lbl_focalLength"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="focal length:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eee" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:text="date taken:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ccc" />
+
+            <TextView
+                android:id="@+id/lbl_dateTaken"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="date taken:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eee" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:text="lens:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ccc" />
+
+            <TextView
+                android:id="@+id/lbl_lens"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:lines="1"
+                android:text="lens:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eee"
+          
+		        android:singleLine="true"
+		        android:ellipsize="marquee"
+		        android:marqueeRepeatLimit="marquee_forever"
+		        android:scrollHorizontally="true"
+		        android:focusable="true"
+		        android:focusableInTouchMode="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:text="provider:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ccc" />
+
+            <TextView
+                android:id="@+id/lbl_provider"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="provider:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eee" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lbl_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="description:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ccc" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_showPhotoDetails"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/txt_photoTitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/txt_photoTitle"
+        android:layout_marginLeft="250dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/show_photo_details" />
+
+</RelativeLayout>

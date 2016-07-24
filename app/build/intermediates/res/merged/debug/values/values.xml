@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">PicturePerfectPro</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="email_id">Email ID</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="title_activity_add_photo_to_collection">AddPhotoToCollection</string>
+    <string name="title_activity_create_account">CreateAccount</string>
+    <string name="title_activity_create_new_collection_dialog">CreateNewCollectionDialog</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_explored_image_swipe_view">ExploredImageSwipeView</string>
+    <string name="title_activity_image_swipe_view">ImageSwipeView</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main_frame">MainFrame</string>
+    <string name="title_activity_quick_search">QuickSearch</string>
+    <string name="title_activity_search_user">SearchUser</string>
+    <string name="title_activity_show_collection_details">ShowCollectionDetails</string>
+    <string name="title_activity_show_explored">ShowExplored</string>
+    <string name="title_activity_single_user_details">SingleUserDetails</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="your_mail_id">Your Mail ID</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

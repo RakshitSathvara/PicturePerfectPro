@@ -1,0 +1,159 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:2:1-91:12
+	package
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:13:22-76
+application
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:15:5-89:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:18:9-41
+	android:allowBackup
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:16:9-35
+	android:icon
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:17:9-45
+	android:theme
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:19:9-44
+activity#com.example.pictureperfectpro.StartScreen
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:20:9-21:20
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:20:19-75
+activity#com.example.pictureperfectpro.Login
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:22:9-25:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:24:13-57
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:23:13-63
+activity#com.example.pictureperfectpro.CreateAccount
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:26:9-29:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:28:13-66
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:27:13-71
+activity#com.example.pictureperfectpro.SplashScreen
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:30:9-39:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:32:13-45
+	android:theme
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:33:13-77
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:31:13-70
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:37:27-74
+activity#com.example.pictureperfectpro.Test
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:40:9-43:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:41:13-62
+activity#com.example.pictureperfectpro.MainFrame
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:44:9-47:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:46:13-62
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:45:13-67
+activity#com.example.pictureperfectpro.QuickSearch
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:48:9-51:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:50:13-64
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:49:13-69
+activity#com.example.pictureperfectpro.ImageSwipeView
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:52:9-55:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:54:13-68
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:53:13-72
+activity#com.example.pictureperfectpro.ShowExplored
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:56:9-59:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:58:13-65
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:57:13-70
+activity#com.example.pictureperfectpro.EditProfile
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:60:9-63:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:62:13-64
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:61:13-69
+activity#com.example.pictureperfectpro.CreateNewCollectionDialog
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:64:9-67:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:66:13-80
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:65:13-83
+activity#com.example.pictureperfectpro.ShowCollectionDetails
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:68:9-71:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:70:13-75
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:69:13-79
+activity#com.example.pictureperfectpro.AddPhotoToCollection
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:72:9-76:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:74:13-75
+	android:theme
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:75:13-70
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:73:13-78
+activity#com.example.pictureperfectpro.SearchUser
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:77:9-80:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:79:13-63
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:78:13-68
+activity#com.example.pictureperfectpro.SingleUserDetails
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:81:9-84:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:83:13-71
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:82:13-75
+activity#com.example.pictureperfectpro.ExploredImageSwipeView
+ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:85:9-88:20
+	android:label
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:87:13-77
+	android:name
+		ADDED from C:\Users\Rakshit\AndroidStudioProjects\PicturePerfectPro\app\src\main\AndroidManifest.xml:86:13-80
